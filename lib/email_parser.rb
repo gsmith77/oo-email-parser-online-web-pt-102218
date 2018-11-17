@@ -16,7 +16,6 @@ class EmailParser
       email.split(" ").uniq
     end
   end
-end
   
   
   
