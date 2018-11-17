@@ -15,9 +15,7 @@ class EmailParser
     emails.include?(",") ? emails.split(", ").uniq : emails.split(" ").uniq
     if emails.include?(",")
       emails.split(", ").uniq
-      elsif emails.include?(" ")
-      emails.split(" ").uniq
-    else emails.include?(nil)
+      else emails.include?(" ")
       emails.split(" ").uniq
     end
   end
