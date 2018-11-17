@@ -21,7 +21,6 @@ class EmailParser
     end
       
   array_of_emails.each do |email|
-        binding.pry
         if email[email.length - 1] == (",")
           email.chomp!(",")
         end
