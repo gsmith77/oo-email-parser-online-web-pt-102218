@@ -18,7 +18,8 @@ class EmailParser
       emails.split(" ").uniq
       
       emails.each do |email|
-        if email.(length - 1)
+        if email.(length - 1) 
+          email + ", "
     end
   end
   
