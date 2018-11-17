@@ -12,11 +12,13 @@ class EmailParser
   end
   
   def parse
-    emails.include?(",") ? emails.split(", ").uniq : emails.split(" ").uniq
     if emails.include?(",")
       emails.split(", ").uniq
       else emails.include?(" ")
       emails.split(" ").uniq
+      
+      emails.each do |email|
+        if email.last 
     end
   end
   
