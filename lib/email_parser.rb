@@ -20,6 +20,7 @@ class EmailParser
       emails.each do |email|
         if email.(length - 1) 
           email + ", "
+        end
     end
   end
   
