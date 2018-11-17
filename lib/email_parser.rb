@@ -20,8 +20,7 @@ class EmailParser
       emails.split(", ").uniq
       
       array_of_emails.each do |email|
-        find length of string email.length - 1
-        take that number and use it as my index on email 
+      end
     end
   end
   
