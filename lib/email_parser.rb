@@ -11,12 +11,7 @@ class EmailParser
     @emails = emails
   end
   
-  def parse
-    if emails.include?(", ")
-    emails.split(", ").uniq
-    else emails.include?(" ")
-    emails.split(", ").uniq
-  end
+
 end
   
   
