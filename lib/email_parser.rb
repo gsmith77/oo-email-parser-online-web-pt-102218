@@ -13,8 +13,8 @@ class EmailParser
   
   def parse
     emails.include?(",") ? emails.split(", ").uniq : emails.split(" ").uniq
-    if emails.include?(", ")
-      emails.split(",").uniq
+    if emails.include?(",")
+      emails.split(", ").uniq
       else emails.include?(" ")
       emails.split(" ").uniq
     end
