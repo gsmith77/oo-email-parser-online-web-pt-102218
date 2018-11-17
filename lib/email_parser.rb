@@ -22,7 +22,7 @@ class EmailParser
       
   array_of_emails.each do |email|
         if email[email.length - 1] == (",")
-          email.chomp!(",")
+          email.chomp!(",").uniq
         end
     end
   end
