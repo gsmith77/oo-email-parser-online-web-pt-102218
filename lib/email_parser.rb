@@ -24,7 +24,7 @@ class EmailParser
         if email[email.length - 1] == (",")
           email.chomp!(",")
         end
-    end
+    end.uniq
   end
   
   
