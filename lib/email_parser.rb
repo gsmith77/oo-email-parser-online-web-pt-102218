@@ -17,6 +17,7 @@ class EmailParser
     else emails.include?(" ")
     emails.split(", ").uniq
   end
+end
   
   
   
