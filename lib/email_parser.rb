@@ -19,7 +19,7 @@ class EmailParser
       else emails.include?(",")
       emails.split(", ").uniq
       
-      array_of_emails.each do |email|
+  array_of_emails.each do |email|
         binding.pry
       end
     end
