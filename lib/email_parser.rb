@@ -21,6 +21,7 @@ class EmailParser
         if email.(length - 1) 
           email + ", "
         end
+      end
     end
   end
   
