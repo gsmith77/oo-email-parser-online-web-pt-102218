@@ -22,6 +22,7 @@ class EmailParser
       
   array_of_emails.each do |email|
         binding.pry
+        if email
     end
   end
   
